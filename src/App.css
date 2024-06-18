@@ -111,6 +111,63 @@ nav ul:hover{
 
 
 
+@media (max-width: 768px) {
+  nav ul {
+    gap: 16px;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+  }
+
+  .hero h1 {
+    font-size: 10vw;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .hero-btn {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .hero-btn button {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero h1 {
+    font-size: 12vw;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero-btn button {
+    font-size: 16px;
+  }
+}
 
 
 
